@@ -8,7 +8,12 @@ Each folder consists of the implementation to one Partial Differential Equation 
 
 Each folder contains all necessary scripts for running. You can just download one folder and run the code.
 
+## How to reproduce the results in paper?
 
+We provide the training records containing all necessary parameters to reproduce the results in paper.
+
+For example, if we want to reproduce Allen Cahen a=20 with number of collocation points equal 6400 in Table 2(c)
+![Table 2](./Pictures/Table2.png)
 
 
 
