@@ -15,7 +15,7 @@ We provide the training records containing all necessary parameters to reproduce
 For example, if we want to reproduce Allen Cahen a=20 with number of collocation points equal 6400 in Table 2(c)
 
 <p align="center">
-  <img src="./Pictures/Table2.png" width="20%" title="Table 2">
+  <img src="./Pictures/Table2.png" width="50%" title="Table 2">
 </p>
 
 The records are in "./Allen_Cahn2D/result_paper/Table2/"; 
@@ -24,8 +24,16 @@ The records are in "./Allen_Cahn2D/result_paper/Table2/";
 "TGPS_NT80x80_a20.ini" share same information except using Newton Method.
 
 Inside record, there exist 2 parts: The front one showing the specific papameters while the below training and testing result based on those parameters.
+
 Here is the front part:
 <p align="center">
-  <img src="./Pictures/T2_Parameters.png" width="30%" title="Table 2">
+  <img src="./Pictures/T2_Parameters.png" width="50%" title="Table 2">
 </p>
+
+Inside each folder(like "Allen_Cahn2D" herer), there exist multiple bash run scripts which can be executed directly.
+
+The name of bash script reflects the problem type and specific method in usage. For example, "run_Allen_Cahn2D_CP_ALS_PF_a20.sh" means the script is related to Allen Cahn 2D with a=20, the method is CP combined with Partial Freeze, corresponding to the records "TGPS_PF*_a20.ini".
+
+But to reproduce the result in one specific record, saying "TGPS_PF80x80_a20.ini", you need to input the parameters shown above to the bash script accordingly. 
+
 
