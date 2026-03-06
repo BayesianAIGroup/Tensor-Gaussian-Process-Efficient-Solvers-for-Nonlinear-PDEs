@@ -13,8 +13,9 @@ Each folder contains all necessary scripts for running. You can just download on
 We provide the training records containing all necessary parameters to reproduce the results in paper.
 
 For example, if we want to reproduce Allen Cahen a=20 with number of collocation points equal 6400 in Table 2(c)
-![Table 2](./Pictures/Table2.png)
 
-
+<p align="center">
+  <img src="./Pictures/Table2.png" width="50%" title="Table 2">
+</p>
 
 
