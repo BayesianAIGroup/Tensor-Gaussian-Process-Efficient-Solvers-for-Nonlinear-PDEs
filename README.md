@@ -2,4 +2,8 @@
 
 This repository contains the official implementation of the paper "[Tensor Gaussian Process: Efficient Solvers for Nonlinear PDEs]" accepted at AISTATS 2026.
 
-
+Software Installion Requirement:
+Pytorch;
+Jax;
+Optax;
+Tensorly;
