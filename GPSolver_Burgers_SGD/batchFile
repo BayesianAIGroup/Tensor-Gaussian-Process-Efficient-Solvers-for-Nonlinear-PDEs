@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#SBATCH --mem=16g
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1    # <- match to OMP_NUM_THREADS
+#SBATCH --partition=gpuA100x4      # <- or one of: gpuA100x4 gpuA40x4 gpuA100x8 gpuMI100x8
+#SBATCH --account=bdyj-delta-gpu    # <- match to a "Project" returned by the "accounts" command
+#SBATCH --job-name=Burgers0001SGD
+#SBATCH --time=08:00:00      # hh:mm:ss for the job
+#SBATCH --constraint="scratch"
+#SBATCH --gpus-per-node=1
+#SBATCH -e slurm-%j.err
+#SBATCH -o slurm-%j.out
+#SBATCH --output=./output/%x_%A_%a.out
+#SBATCH --error=./output/%x_%A_%a.err
+### GPU options ###
+##SBATCH --gpus-per-node=1
+
+##SBATCH --mail-user=u1305734@utah.edu
+##SBATCH --mail-type="BEGIN,END" See sbatch or srun man pages for more email options
+
+
+./run_Burgers_CP_Efficiency.sh
