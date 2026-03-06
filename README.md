@@ -18,4 +18,12 @@ For example, if we want to reproduce Allen Cahen a=20 with number of collocation
   <img src="./Pictures/Table2.png" width="50%" title="Table 2">
 </p>
 
+The records are in "./Allen_Cahn2D/result_paper/Table2/"; 
+
+"TGPS_PF80x80_a20.ini" represents the Allen_Cahn Problem with "a=20", using Partial Freeze Method under 6400(80x80) collocation points;
+"TGPS_NT80x80_a20.ini" share same information except using Newton Method.
+
+Inside record, there exist 2 parts: The front one showing the specific papameters while the below training and testing result based on those parameters.
+
+
 
