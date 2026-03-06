@@ -1,0 +1,6 @@
+# The experiments are done using the following version of deep learning framework
+torch==2.4.1
+torchvision==0.19.1
+jax==0.9.0.1
+optax==0.2.7
+tensorly==0.8.0
