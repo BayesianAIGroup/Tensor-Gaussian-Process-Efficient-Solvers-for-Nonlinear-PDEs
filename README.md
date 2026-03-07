@@ -36,4 +36,16 @@ The name of bash script reflects the problem type and specific method in usage. 
 
 But to reproduce the result in one specific record, saying "TGPS_PF80x80_a20.ini", you need to input the parameters shown above to the bash script accordingly. 
 
+In each bash script, we put the key parameters to be modified for reproduction in variable settings:
+<p align="center">
+  <img src="./Pictures/BashScript.png" width="50%" title="Table 2">
+</p>
+
+Which corresponds to the record's part:
+<p align="center">
+  <img src="./Pictures/section_report.png" width="50%" title="Table 2">
+</p>
+
+You can also check the parse section in the running code, saying "SolveAllenCahen.py" here, for more details.
+
 
