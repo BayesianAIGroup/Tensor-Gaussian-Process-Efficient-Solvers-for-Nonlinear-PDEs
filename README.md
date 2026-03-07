@@ -15,7 +15,7 @@ We provide the training records containing all necessary parameters to reproduce
 For example, if we want to reproduce Allen Cahen a=20 with number of collocation points equal 6400 in Table 2(c)
 
 <p align="center">
-  <img src="./Pictures/Table2.png" width="50%" title="Table 2">
+  <img src="./Pictures/Table2.png" width="40%" title="Table 2">
 </p>
 
 The records are in "./Allen_Cahn2D/result_paper/Table2/"; 
@@ -27,7 +27,7 @@ Inside record, there exist 2 parts: The front one showing the specific papameter
 
 Here is the front part:
 <p align="center">
-  <img src="./Pictures/T2_Parameters.png" width="50%" title="Table 2">
+  <img src="./Pictures/T2_Parameters.png" width="40%" title="Table 2">
 </p>
 
 Inside each folder(like "Allen_Cahn2D" herer), there exist multiple bash run scripts which can be executed directly.
@@ -38,12 +38,12 @@ But to reproduce the result in one specific record, saying "TGPS_PF80x80_a20.ini
 
 In each bash script, we put the key parameters to be modified for reproduction in variable settings:
 <p align="center">
-  <img src="./Pictures/BashScript.png" width="50%" title="Table 2">
+  <img src="./Pictures/BashScript.png" width="20%" title="Table 2">
 </p>
 
 Which corresponds to the record's part:
 <p align="center">
-  <img src="./Pictures/section_report.png" width="50%" title="Table 2">
+  <img src="./Pictures/section_report.png" width="30%" title="Table 2">
 </p>
 
 You can also check the parse section in the running code, saying "SolveAllenCahen.py" here, for more details.
