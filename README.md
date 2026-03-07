@@ -48,4 +48,19 @@ Which corresponds to the record's part:
 
 You can also check the parse section in the running code, saying "SolveAllenCahen.py" here, for more details.
 
+## SGD Method
+
+There exist 4 folders: "GPSolver_Allen_C_2D_SGD", "GPSolver_AllenC_6D_SGD_Clear", "GPSolver_Burgers_SGD" and "GPSolver_Elliptic_nonLinear_SGD". These correspond to the baselines showing in the plot of Figure 2 in the paper.
+
+## Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@inproceedings{yuantensor,
+  title={Tensor Gaussian Processes: Efficient Solvers for Nonlinear PDEs},
+  author={Yuan, Qiwei and Xu, Zhitong and Chen, Yinghao and Xu, Yiming and Owhadi, Houman and Zhe, Shandian},
+  booktitle={The 29th International Conference on Artificial Intelligence and Statistics}
+}
+
 
