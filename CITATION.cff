@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software or the methods from the paper, please cite it as below."
+authors:
+- family-names: "Yuan"
+  given-names: "Qiwei"
+- family-names: "Xu"
+  given-names: "Zhitong"
+- family-names: "Chen"
+  given-names: "Yinghao"
+- family-names: "Xu"
+  given-names: "Yiming"
+- family-names: "Owhadi"
+  given-names: "Houman"
+- family-names: "Zhe"
+  given-names: "Shandian"
+title: "Tensor Gaussian Processes: Efficient Solvers for Nonlinear PDEs"
+date-released: 2026-03-08
+url: "https://github.com/BayesianAIGroup/Tensor-Gaussian-Process-Efficient-Solvers-for-Nonlinear-PDEs"
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: "Yuan"
+    given-names: "Qiwei"
+  - family-names: "Xu"
+    given-names: "Zhitong"
+  - family-names: "Chen"
+    given-names: "Yinghao"
+  - family-names: "Xu"
+    given-names: "Yiming"
+  - family-names: "Owhadi"
+    given-names: "Houman"
+  - family-names: "Zhe"
+    given-names: "Shandian"
+  title: "Tensor Gaussian Processes: Efficient Solvers for Nonlinear PDEs"
+  collection-title: "The 29th International Conference on Artificial Intelligence and Statistics"
+  year: 2026
